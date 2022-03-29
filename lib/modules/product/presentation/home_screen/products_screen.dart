@@ -17,6 +17,8 @@ class ProductsScreen extends StatelessWidget {
             child: Card(
               elevation: 0,
               child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
                     height: size.height * 0.1,

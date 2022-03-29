@@ -1,10 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
-import 'package:vest_store/modules/all_category/data/models/category_model.dart';
-import 'package:vest_store/modules/all_category/presentation/controllers/all_categories_store.dart';
-import 'package:vest_store/modules/product/data/models/product_model.dart';
 
 class AllCategoriesScreen extends StatelessWidget {
   const AllCategoriesScreen({Key? key}) : super(key: key);
@@ -23,31 +17,46 @@ class AllCategoriesScreen extends StatelessWidget {
               Expanded(
                 child: TextButton(
                   onPressed: () {},
-                  child: const Text('All'),
+                  child: const Text(
+                    'All',
+                    style: TextStyle(color: Colors.grey),
+                  ),
                 ),
               ),
               Expanded(
                 child: TextButton(
                   onPressed: () {},
-                  child: const Text('Electronic'),
+                  child: const Text(
+                    'Electronic',
+                    style: TextStyle(color: Colors.grey),
+                  ),
                 ),
               ),
               Expanded(
                 child: TextButton(
                   onPressed: () {},
-                  child: const Text('Jewelery'),
+                  child: const Text(
+                    'Jewelery',
+                    style: TextStyle(color: Colors.grey),
+                  ),
                 ),
               ),
               Expanded(
                 child: TextButton(
                   onPressed: () {},
-                  child: const Text('Mens clothing'),
+                  child: const Text(
+                    'Mens clothing',
+                    style: TextStyle(color: Colors.grey),
+                  ),
                 ),
               ),
               Expanded(
                 child: TextButton(
                   onPressed: () {},
-                  child: const Text('Womens clothing'),
+                  child: const Text(
+                    'Womens clothing',
+                    style: TextStyle(color: Colors.grey),
+                  ),
                 ),
               ),
             ],

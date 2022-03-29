@@ -1,16 +1,7 @@
 # vest_store
 
-A new Flutter project.
+o projeot foi desenvolvido usando os principios do SOLID e clean architecture, alem do gerenciador de estado Mobx. 
+Também foi usado injeção de dependências com flutter modular,
+O Dio foi o pacote usado para integração com as api's
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Infelizmente não pude concluir o desafio por problemas pessoais mas fica como aprendizado e, se possivel, um feedback sobre o que melhorar no projeto será muito bem vindo.
